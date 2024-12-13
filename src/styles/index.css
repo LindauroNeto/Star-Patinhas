@@ -299,20 +299,21 @@ a{
     width: 100%;
     height: auto;
     gap: 5%;
-    margin: 5% 0%;
+    margin: 4% 0%;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
 
 .DivOng{
-    width: 80%;
+    width: 90%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
+    margin-bottom: 8%;
 }
 
 iframe{
@@ -326,6 +327,7 @@ iframe{
     width: 50%;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .OngContent > h1{
@@ -338,6 +340,37 @@ iframe{
 .OngContent > p{
     font-family: "OpensSansSemibold";
     text-align: justify;
+    font-size: 20px;
+}
+
+.OngContatos{
+    display: flex;
+    width: 50%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.OngContatos > a{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: fit-content; 
+    height: fit-content; 
+    text-decoration: none; 
+}
+
+.OngContatosImg{
+    width: 35%;
+}
+
+.OngContatosTitulo {
+    width: 80%;
+    flex-direction: column;
+    text-align: center;
+    color: #1253AF;
+    font-family: "OpensSansExtrabold";
+    align-self: center;
     font-size: 20px;
 }
 
@@ -559,6 +592,10 @@ footer > img{
 
     .OngContent > p{
         text-align: left;
+    }
+
+    .OngContatos{
+        width: 80%;
     }
 
     /* Contatos */
